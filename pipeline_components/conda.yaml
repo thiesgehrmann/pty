@@ -1,0 +1,8 @@
+channels:
+ - bioconda
+ - thiesgehrmann
+
+dependencies:
+ - gffread
+ - blast
+ - diamond
