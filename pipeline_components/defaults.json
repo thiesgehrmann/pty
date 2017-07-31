@@ -1,9 +1,7 @@
 {
 
   "blast_params" : "",
-  "blastfields" : "qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore slen qlen",
-  "diamond" : false,
-  "diamond_params" : "",
-  "p" : 0.05 
+  "p" : 0.05,
+  "cons_thresh" : 1
 
 }

@@ -6,3 +6,8 @@ dependencies:
  - gffread
  - blast
  - diamond
+ - intervaltree
+ - scipy
+ - numpy
+ - circos
+ - perl-gd
