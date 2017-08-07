@@ -32,7 +32,8 @@ def mkdir_p(path):
 
 class BlastHitType(object):
   BlastHit = None
-  def __init__(self, blastFields = "qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore"):
+  def __init__(self, blastFields = blastfields):
+    print(blastFields)
     self.BlastHit = namedtuple("BlastHit", blastFields)
   def setFields(self, blastFields):
     self.BlastHit = namedtuple("BlastHit", blastFields)
