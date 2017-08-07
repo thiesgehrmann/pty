@@ -163,9 +163,6 @@ rule reciprocalBlast:
 
     recip = []
 
-    print(list(hAB.keys())[0])
-    print(list(hBA.keys())[0])
-
     for (t1,t2) in hAB.keys():
       if (t2,t1) not in hBA:
         continue

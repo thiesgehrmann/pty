@@ -33,7 +33,6 @@ def mkdir_p(path):
 class BlastHitType(object):
   BlastHit = None
   def __init__(self, blastFields = blastfields):
-    print(blastFields)
     self.BlastHit = namedtuple("BlastHit", blastFields)
   def setFields(self, blastFields):
     self.BlastHit = namedtuple("BlastHit", blastFields)
@@ -82,7 +81,7 @@ def blastHit2Row(h):
 
 ###############################################################################
 
-def readBlastFile(filename, fields="qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore"):
+def readBlastFile(filename, fields=blastfields):
   blastHitType.setFields(fields)
   hits    = []
   # Read the BLAST hits
