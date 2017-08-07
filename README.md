@@ -44,7 +44,7 @@ Te configuration is very straightforward, and it is described in JSON format (se
 ```json
 {
 
-  "outdir": "outDir", #
+  "outdir": "outDir",
 
   "genomes" : {
     "genome_1" : { 
