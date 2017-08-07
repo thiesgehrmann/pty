@@ -292,7 +292,7 @@ rule makeDendrogram:
     exonInfo = rules.exonInfo.output.exonInfo
   output:
     dendrogram = "%s/dendrogram.{chrpair}.tsv" % __CLUST_OUTDIR__
-  conda: "%s/clusterHits.conda.yaml" % __PC_DIR__
+  conda: "%s/conda.yaml" % __PC_DIR__
   params:
     pc_dir = __PC_DIR__,
   shell: """
