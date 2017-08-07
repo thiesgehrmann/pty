@@ -8,11 +8,11 @@ from collections import namedtuple
 
 ###############################################################################
 
-blastfields = "qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore slen qlen",
-blastfields_type = "str str float int int int int int int int float float int int",
-augmentedblastfields = "qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore slen qlen K",
-augmentedblastfields_type = "str str float int int int int int int int float float int int float",
-genomicblastfields = "qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore slen qlen K g1chr g1start g1end g2chr g2start g2end",
+blastfields = "qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore slen qlen"
+blastfields_type = "str str float int int int int int int int float float int int"
+augmentedblastfields = "qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore slen qlen K"
+augmentedblastfields_type = "str str float int int int int int int int float float int int float"
+genomicblastfields = "qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore slen qlen K g1chr g1start g1end g2chr g2start g2end"
 genomicblastfields_type = "str str float int int int int int int int float float int int float str int int str int int"
 
 
